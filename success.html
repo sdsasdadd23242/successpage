@@ -4,7 +4,11 @@
   <meta charset="UTF-8">
   <title>Subscription Success</title>
   <style>
-    body { font-family: Arial, sans-serif; padding: 20px; text-align: center; }
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      text-align: center;
+    }
     a#openExtension {
       display: inline-block;
       margin-top: 20px;
@@ -20,11 +24,12 @@
 <body>
   <h1>Thank you for subscribing!</h1>
   <p>Your subscription is now active.</p>
+  <p>To access the extension, please click the link below or manually open your extension.</p>
   <a id="openExtension" 
      href="chrome-extension://dpjbcalnafhafnckmdcjilikkfakcdpi/popup.html?subscribed=true" 
      target="_blank">
     Open Extension
   </a>
-  <p>If the extension does not open automatically, please click its icon in your browser toolbar or disable any ad blockers on this page.</p>
+  <p>If the link above does not work, please click on your extension's icon in the browser toolbar.</p>
 </body>
 </html>
