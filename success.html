@@ -3,14 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <title>Subscription Success</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      text-align: center;
+    }
+    a#openExtension {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #4285f4;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 18px;
+    }
+  </style>
 </head>
 <body>
   <h1>Thank you for subscribing!</h1>
   <p>Your subscription is now active.</p>
   <a id="openExtension" 
      href="chrome-extension://dpjbcalnafhafnckmdcjilikkfakcdpi/popup.html?subscribed=true" 
-     target="_blank" 
-     style="font-size: 18px; padding: 10px 20px; background: #4285f4; color: white; text-decoration: none; border-radius: 4px;">
+     target="_blank">
     Open Extension
   </a>
   <p>If the extension does not open automatically, please click the extension icon in your browser toolbar.</p>
